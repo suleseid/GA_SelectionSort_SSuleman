@@ -19,16 +19,17 @@ namespace GA_SelectionSort_SSuleman
                 // Assume the current index as the minimum
                 int minIndex = currentIndex;
 
-                // Find the minimum element in the remaining unsorted array
+                // To find the minimum element in the remaining unsorted array 
+                //lets use for loop,
                 for (int unsortedIndex = currentIndex + 1; unsortedIndex < arrayLength; unsortedIndex++)
                 {
-                    // If the current element is smaller than the minimum element, update the min index
+                    // If the current element is smaller than the minimum element,
+                    // update the min index
                     if (arr[unsortedIndex] < arr[minIndex])
                     {
                         minIndex = unsortedIndex;
                     }
                 }
-
                 // Swap the found minimum element with the element at the current index.
                 // This will move the minimum element to the sorted part of the array.
                 int temp = arr[minIndex];
