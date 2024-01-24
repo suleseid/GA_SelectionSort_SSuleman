@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA_SelectionSort_SSuleman", "GA_SelectionSort_SSuleman\GA_SelectionSort_SSuleman.csproj", "{AA57F435-58CC-4539-B3AB-1F52A6B70364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA57F435-58CC-4539-B3AB-1F52A6B70364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA57F435-58CC-4539-B3AB-1F52A6B70364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA57F435-58CC-4539-B3AB-1F52A6B70364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA57F435-58CC-4539-B3AB-1F52A6B70364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6CBE44-2C1D-4A43-B24C-4115E3A4F31D}
+	EndGlobalSection
+EndGlobal
