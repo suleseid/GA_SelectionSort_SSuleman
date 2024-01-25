@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NUnit.Framework;
+using NUnit.Framework.Legacy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,7 @@ namespace GA_SelectionSort_SSuleman
 {
     internal class Program
     {
+        
         public static void SelectionSort(int[] arr)
         {
             // Get the length of the input array
@@ -30,13 +33,37 @@ namespace GA_SelectionSort_SSuleman
                         minIndex = unsortedIndex;
                     }
                 }
-                // Swap the found minimum element with the element at the current index.
-                // This will move the minimum element to the sorted part of the array.
+                
                 int temp = arr[minIndex];
                 arr[minIndex] = arr[currentIndex];
                 arr[currentIndex] = temp;
-            }
-        }
 
+            }
+
+        }
+        public static void Main(string[] args)
+        {
+            // Create an array of integers
+            int[] arr = new int[] { 9, 7, 2, 15, 6, 4,10, 11 };
+
+            // Print the array before sorting
+            Console.WriteLine("Array before sorting:");
+            foreach (int num in arr)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine();
+
+            // Call the SelectionSort method on the array
+            SelectionSort(arr);
+
+            // Print the array after sorting
+            Console.WriteLine("Array after sorting:");
+            foreach (int num in arr)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine();
+        }
     }
 }
